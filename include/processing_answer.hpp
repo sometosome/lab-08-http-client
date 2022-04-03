@@ -1,7 +1,8 @@
 // Copyright 2021 Your Name <your_email>
 
-#ifndef INCLUDE_GENERAL_HPP_
-#define INCLUDE_GENERAL_HPP_
+#ifndef INCLUDE_PROCESSING_ANSWER_HPP_
+#define INCLUDE_PROCESSING_ANSWER_HPP_
+
 #include <nlohmann/json.hpp>
 #include <boost/beast/core.hpp>
 #include <boost/beast/http.hpp>
@@ -20,4 +21,4 @@ using tcp = net::ip::tcp;
 
 void making_request(int argc, char** argv);
 
-#endif // INCLUDE_GENERAL_HPP_
+#endif // INCLUDE_PROCESSING_ANSWER_HPP_
